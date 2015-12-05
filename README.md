@@ -52,6 +52,12 @@ recursive clients: 0/0/1000<br>
 tcp clients: 2/100<br>
 server is up and running<br>
 <br>
+-- copy bind-stats.cron.d<br>
+$ cp bind-stats.cron.d /etc/crond.d/bind-stats<br>
+
+-- check example<br>
+$ cat /etc/cron.d/bind-stats<br>
+*/5 * * * * root /usr/local/bin/bind-stats.cron
 
 ## Notes
 
