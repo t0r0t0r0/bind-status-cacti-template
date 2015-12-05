@@ -46,7 +46,7 @@
 				<alpha>FF</alpha>
 				<graph_type_id>4</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
-				<cdef_id>0</cdef_id>
+				<cdef_id>hash_050024e961cc8ec04fda6ed4981cf5ad501aa5</cdef_id>
 				<value></value>
 				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>recursive clients</text_format>
@@ -59,7 +59,7 @@
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>4</consolidation_function_id>
-				<cdef_id>0</cdef_id>
+				<cdef_id>hash_050024e961cc8ec04fda6ed4981cf5ad501aa5</cdef_id>
 				<value></value>
 				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Cur:</text_format>
@@ -72,7 +72,7 @@
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>1</consolidation_function_id>
-				<cdef_id>0</cdef_id>
+				<cdef_id>hash_050024e961cc8ec04fda6ed4981cf5ad501aa5</cdef_id>
 				<value></value>
 				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Ave:</text_format>
@@ -85,7 +85,7 @@
 				<alpha>FF</alpha>
 				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>3</consolidation_function_id>
-				<cdef_id>0</cdef_id>
+				<cdef_id>hash_050024e961cc8ec04fda6ed4981cf5ad501aa5</cdef_id>
 				<value></value>
 				<gprint_id>hash_060024e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Max:</text_format>
@@ -425,6 +425,26 @@
 		<timespan>14400</timespan>
 		<cf_items>1|3</cf_items>
 	</hash_150024283ea2bf1634d92ce081ec82a634f513>
+	<hash_050024e961cc8ec04fda6ed4981cf5ad501aa5>
+		<name>Make Per 5 Minutes</name>
+		<items>
+			<hash_14002440bb7a1143b0f2e2efca14eb356236de>
+				<sequence>1</sequence>
+				<type>4</type>
+				<value>CURRENT_DATA_SOURCE</value>
+			</hash_14002440bb7a1143b0f2e2efca14eb356236de>
+			<hash_140024faf1b148b2c0e0527362ed5b8ca1d351>
+				<sequence>2</sequence>
+				<type>6</type>
+				<value>300</value>
+			</hash_140024faf1b148b2c0e0527362ed5b8ca1d351>
+			<hash_14002442686ea0925c0220924b7d333599cd67>
+				<sequence>3</sequence>
+				<type>2</type>
+				<value>3</value>
+			</hash_14002442686ea0925c0220924b7d333599cd67>
+		</items>
+	</hash_050024e961cc8ec04fda6ed4981cf5ad501aa5>
 	<hash_060024e9c43831e54eca8069317a2ce8c6f751>
 		<name>Normal</name>
 		<gprint_text>%8.2lf %s</gprint_text>
