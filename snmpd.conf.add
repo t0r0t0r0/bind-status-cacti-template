@@ -1,0 +1,1 @@
+extend .1.3.6.1.4.1.18689.0.4 dns-stats /usr/local/bin/bind-stats
