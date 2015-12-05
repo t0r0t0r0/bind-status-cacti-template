@@ -61,4 +61,5 @@ $ cat /etc/cron.d/bind-stats<br>
 
 ## Notes
 
+rndc status の結果をグラフ化
 
