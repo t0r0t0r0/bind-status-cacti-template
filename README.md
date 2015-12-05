@@ -5,8 +5,15 @@ URL : https://www.isc.org/downloads/<br>
 
 <br>
 ## Requirement<br>
-OS:CentOS6<br>
-Package:cacti-0.8.8b-7.el6.noarch<br>
+OS:<br>
+CentOS6<br>
+<br>
+Package:<br>
+cacti-0.8.8b-7.el6.noarch<br>
+bind-9.8.2-0.37.rc1.el6_7.4.x86_64<br>
+bind-chroot-9.8.2-0.37.rc1.el6_7.4.x86_64<br>
+bind-libs-9.8.2-0.37.rc1.el6_7.4.x86_64<br>
+bind-utils-9.8.2-0.37.rc1.el6_7.4.x86_64<br>
 <br>
 ## Install<br>
 -- edit snmpd.conf<br>
