@@ -14,6 +14,9 @@ bind-9.8.2-0.37.rc1.el6_7.4.x86_64<br>
 bind-chroot-9.8.2-0.37.rc1.el6_7.4.x86_64<br>
 bind-libs-9.8.2-0.37.rc1.el6_7.4.x86_64<br>
 bind-utils-9.8.2-0.37.rc1.el6_7.4.x86_64<br>
+net-snmp-5.5-54.el6_7.1.x86_64<br>
+net-snmp-libs-5.5-54.el6_7.1.x86_64<br>
+net-snmp-utils-5.5-54.el6_7.1.x86_64<br>
 <br>
 ## Install<br>
 -- edit snmpd.conf<br>
