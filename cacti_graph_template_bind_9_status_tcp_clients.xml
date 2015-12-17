@@ -135,10 +135,10 @@
 		</inputs>
 	</hash_000024f158edd6ec94b7c856093c97c388dfe8>
 	<hash_010024d120acf98ce783dff166d0d315bd6bbf>
-		<name>BIND 9　Status</name>
+		<name>BIND 9 Status</name>
 		<ds>
 			<t_name></t_name>
-			<name>BIND 9 Status</name>
+			<name>|host_description| - BIND 9 Status</name>
 			<data_input_id>hash_030024ceea980f466602410053e9811363f59c</data_input_id>
 			<t_rra_id></t_rra_id>
 			<t_rrd_step></t_rrd_step>
@@ -164,7 +164,7 @@
 			</hash_0800245542e6b2be5f8c1ffd5c9376607ad3f3>
 			<hash_080024e7e3b5a7d2388a685840dffb422813fb>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>xfersrunning</data_source_name>
+				<data_source_name>xfersrun</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -178,7 +178,7 @@
 			</hash_080024e7e3b5a7d2388a685840dffb422813fb>
 			<hash_080024335797ade8fa09d72471f9286d4d013e>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>xfersdeferred</data_source_name>
+				<data_source_name>xfersdef</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -190,23 +190,9 @@
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_070024c5bc12f03f4a2dca6a916e3fd8609e12</data_input_field_id>
 			</hash_080024335797ade8fa09d72471f9286d4d013e>
-			<hash_080024db75136245dac8e1c8f6da5d5242fe0d>
-				<t_data_source_name></t_data_source_name>
-				<data_source_name>soaqueriesinprogres</data_source_name>
-				<t_rrd_minimum></t_rrd_minimum>
-				<rrd_minimum>0</rrd_minimum>
-				<t_rrd_maximum></t_rrd_maximum>
-				<rrd_maximum>100000000</rrd_maximum>
-				<t_data_source_type_id></t_data_source_type_id>
-				<data_source_type_id>1</data_source_type_id>
-				<t_rrd_heartbeat></t_rrd_heartbeat>
-				<rrd_heartbeat>600</rrd_heartbeat>
-				<t_data_input_field_id></t_data_input_field_id>
-				<data_input_field_id>hash_0700242d65ce9838975235bcecd3c0ab7ea95c</data_input_field_id>
-			</hash_080024db75136245dac8e1c8f6da5d5242fe0d>
 			<hash_0800248aafb18509ca206adcdd4eba72076b90>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>recursiveclient</data_source_name>
+				<data_source_name>rclient</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -220,7 +206,7 @@
 			</hash_0800248aafb18509ca206adcdd4eba72076b90>
 			<hash_080024e957738e4b10af019c24463c22aa7e74>
 				<t_data_source_name></t_data_source_name>
-				<data_source_name>recursiveclientmax</data_source_name>
+				<data_source_name>rclientmax</data_source_name>
 				<t_rrd_minimum></t_rrd_minimum>
 				<rrd_minimum>0</rrd_minimum>
 				<t_rrd_maximum></t_rrd_maximum>
@@ -260,11 +246,25 @@
 				<t_data_input_field_id></t_data_input_field_id>
 				<data_input_field_id>hash_0700243d11b6c9a06ca44613a0cc10a22ab68f</data_input_field_id>
 			</hash_08002486bc6a26a7f67f73d8fd3cf80021173d>
+			<hash_080024add96341f6c4b9d4415c067237e9c73a>
+				<t_data_source_name></t_data_source_name>
+				<data_source_name>soaqueries</data_source_name>
+				<t_rrd_minimum></t_rrd_minimum>
+				<rrd_minimum>0</rrd_minimum>
+				<t_rrd_maximum></t_rrd_maximum>
+				<rrd_maximum>100000000</rrd_maximum>
+				<t_data_source_type_id></t_data_source_type_id>
+				<data_source_type_id>1</data_source_type_id>
+				<t_rrd_heartbeat></t_rrd_heartbeat>
+				<rrd_heartbeat>600</rrd_heartbeat>
+				<t_data_input_field_id></t_data_input_field_id>
+				<data_input_field_id>hash_0700242d65ce9838975235bcecd3c0ab7ea95c</data_input_field_id>
+			</hash_080024add96341f6c4b9d4415c067237e9c73a>
 		</items>
 		<data>
 			<item_000>
 				<data_input_field_id>hash_070024ee409a1f93992050e08a88fad831629c</data_input_field_id>
-				<t_value></t_value>
+				<t_value>on</t_value>
 				<value>.1.3.6.1.4.1.18689.0.4.4.1.2.9.100.110.115.45.115.116.97.116.115.1</value>
 			</item_000>
 			<item_001>
@@ -321,49 +321,49 @@
 				<data_name>zones</data_name>
 			</hash_0700242b7af3eb1959302432383a4ab803c076>
 			<hash_070024fc1d73cab6c736913e6d9f95ee06e90c>
-				<name>xfersrunning</name>
+				<name>xfersrun</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>out</input_output>
-				<data_name>xfersrunning</data_name>
+				<data_name>xfersrun</data_name>
 			</hash_070024fc1d73cab6c736913e6d9f95ee06e90c>
 			<hash_070024c5bc12f03f4a2dca6a916e3fd8609e12>
-				<name>xfersdeferred</name>
+				<name>xfersdef</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>out</input_output>
-				<data_name>xfersdeferred</data_name>
+				<data_name>xfersdef</data_name>
 			</hash_070024c5bc12f03f4a2dca6a916e3fd8609e12>
 			<hash_0700242d65ce9838975235bcecd3c0ab7ea95c>
-				<name>soaqueriesinprogress</name>
+				<name>soaqueries</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>out</input_output>
-				<data_name>soaqueriesinprogress</data_name>
+				<data_name>soaqueries</data_name>
 			</hash_0700242d65ce9838975235bcecd3c0ab7ea95c>
 			<hash_0700246f5de66e428d44a50dcfafb83f0bf2d0>
-				<name>recursiveclient</name>
+				<name>rclient</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>out</input_output>
-				<data_name>recursiveclient</data_name>
+				<data_name>rclient</data_name>
 			</hash_0700246f5de66e428d44a50dcfafb83f0bf2d0>
 			<hash_0700241264d3127f84c54d7547e721104b53d6>
-				<name>recursiveclientmax</name>
+				<name>rclientmax</name>
 				<update_rra>on</update_rra>
 				<regexp_match></regexp_match>
 				<allow_nulls></allow_nulls>
 				<type_code></type_code>
 				<input_output>out</input_output>
-				<data_name>recursiveclientmax</data_name>
+				<data_name>rclientmax</data_name>
 			</hash_0700241264d3127f84c54d7547e721104b53d6>
 			<hash_070024048e0a5b143d50c0a54b62ee4a64f445>
 				<name>tcpclient</name>
