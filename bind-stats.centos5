@@ -12,4 +12,4 @@ recursiveclientmax=`cat ${STATUSTMPFILE}|grep "recursive clients:"|awk -F":" '{p
 tcpclient=`cat ${STATUSTMPFILE}|grep "tcp clients:"|awk -F":" '{print $2}'|awk -F"/" '{print $1}'|sed 's/\s//g'`
 tcpclientmax=`cat ${STATUSTMPFILE}|grep "tcp clients:"|awk -F":" '{print $2}'|awk -F"/" '{print $2}'|sed 's/\s//g'`
 
-echo "zones:${zones} xfersrunning:${xfersrunning} xfersdeferred:${xfersdeferred} soaqueriesinprogress:${soaqueriesinprogress} recursiveclient:${recursiveclient} recursiveclientmax:${recursiveclientmax}  tcpclient:${tcpclient}  tcpclientmax:${tcpclientmax}"
+echo "zones:${zones} xfersrun:${xfersrunning} xfersdef:${xfersdeferred} soaqueries:${soaqueriesinprogress} rclient:${recursiveclient} rclientmax:${recursiveclientmax}  tcpclient:${tcpclient}  tcpclientmax:${tcpclientmax}"
